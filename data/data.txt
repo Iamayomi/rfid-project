@@ -1,0 +1,23 @@
+[
+  {
+    "name": null,
+    "course": null,
+    "matric_no": null,
+    "rfid_badge": "VQ RM RF MA",
+    "image": null
+  },
+  {
+    "name": null,
+    "course": null,
+    "matric_no": null,
+    "rfid_badge": "YB CN LP KM",
+    "image": null
+  },
+  {
+    "name": null,
+    "course": null,
+    "matric_no": null,
+    "rfid_badge": "PS XP AJ GM",
+    "image": null
+  }
+]
