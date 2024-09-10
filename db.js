@@ -2,7 +2,7 @@ const { Sequelize } = require("sequelize");
 
 require("dotenv").config({ path: "./config.env" });
 
-const sequelize = new Sequelize(
+const sequelize = process.env.NODE_ENV === 'production' ? new Sequelize(process.env.PG_URL, {dialect: "postgres"}) :  new Sequelize(
   process.env.DB_DATABASE,
   process.env.DB_USERNAME,
   process.env.DB_PASSWORD,
