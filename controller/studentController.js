@@ -35,16 +35,6 @@ parser.on("data", async (uid) => {
     });
   }
 
-  if (UID === "92BAF095") {
-    let student = await Student.create({
-      name: "Badejo Oluwaseun Azeez",
-      matric_no: "EES/19/20/0194",
-      image: "badejo.jpg",
-      course: "Mechanical Engineering",
-      rfid_badge: uid,
-    });
-  }
-
   if (UID === "739E230D") {
     let student = await Student.create({
       name: "Amodu Ayomide Sherif",
